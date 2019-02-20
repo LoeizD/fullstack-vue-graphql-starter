@@ -3,9 +3,9 @@
     <v-navigation-drawer app temporary fixed v-model="sideNav">
       <v-toolbar color="accent" dark flat>
         <v-toolbar-side-icon @click="sideNav = !sideNav"></v-toolbar-side-icon>
-        <v-router-link to="/" tag="span" style="cursor: pointer">
+        <router-link to="/" tag="span" style="cursor: pointer">
           <h1 class="title pl-3">Vue Share</h1>
-        </v-router-link>
+        </router-link>
       </v-toolbar>
       <v-divider></v-divider>
       <v-list>
